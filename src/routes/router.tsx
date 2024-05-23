@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
     element: <MainTemplate />,
     children: [
       {
-        path: 'cadastro',
+        path: '/',
         element: <Register />,
       },
     ],
